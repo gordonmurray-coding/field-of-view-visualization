@@ -47,12 +47,9 @@ MATLAB R2022a+
 (Optional) relevant toolboxes if you enable advanced features
 
 Installation
-bash
-Copy code
+
 git clone https://github.com/gordonmurray-coding/field-of-view-visualization.git
 cd field-of-view-visualization
-Data
-If your scenario needs inputs, place the required CSVs in data/ and adjust run_demo.m accordingly.
 
 License
 This project is licensed under the MIT License.
