@@ -35,8 +35,8 @@ run_demo
 
 ## Installation
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/gordonmurray-coding/field-of-view-visualization.git
+cd field-of-view-visualization
 ```
 
 
