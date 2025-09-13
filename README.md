@@ -1,12 +1,8 @@
 <p align="left">
   <a href="https://www.mathworks.com/products/matlab.html"><img src="https://img.shields.io/badge/MATLAB-R2022a%2B-blue" alt="MATLAB"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-success" alt="License: MIT"></a>
-  <img src="https://img.shields.io/badge/maintained-yes-informational" alt="Maintained">
+  <img src="https://img.shields.io/github/last-commit/gordonmurray-coding/field-of-view-visualization" alt="GitHub last commit">
 </p>
-
-![MATLAB](https://img.shields.io/badge/MATLAB-R2022a+-orange)
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-![GitHub last commit](https://img.shields.io/github/last-commit/<your-username>/<repo>)
 
 # Field of View (FOV) Visualization
 
