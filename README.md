@@ -24,6 +24,7 @@ Outputs will be saved to:
 
 results/fov_example.png
 Repository Structure
+
 .
 ├── data/           # (optional) input CSVs for scenarios
 ├── results/        # generated figures
@@ -31,8 +32,6 @@ Repository Structure
 ├── .gitignore
 ├── LICENSE
 └── README.md
-Example Output
-After running the demo, the README image below will render automatically.
 
 <p align="center"> <img src="results/fov_example.png" alt="Synthetic FOV Example" width="680"> </p>
 Requirements
