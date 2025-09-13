@@ -19,17 +19,11 @@ Results (example image) are written to `results/`.
    run('run_demo.m')
 Or from the command line:
 
-bash
-Copy code
 matlab -batch "run('run_demo.m')"
 Outputs will be saved to:
 
-bash
-Copy code
 results/fov_example.png
 Repository Structure
-graphql
-Copy code
 .
 ├── data/           # (optional) input CSVs for scenarios
 ├── results/        # generated figures
