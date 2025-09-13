@@ -1,57 +1,58 @@
 <p align="left">
-  <a href="https://www.mathworks.com/products/matlab.html"><img src="https://img.shields.io/badge/MATLAB-R2022a%2B-blue" alt="MATLAB"></a>
-  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-success" alt="License: MIT"></a>
-  <img src="https://img.shields.io/github/last-commit/gordonmurray-coding/field-of-view-visualization" alt="GitHub last commit">
+  <a href="https://www.mathworks.com/products/matlab.html">
+    <img src="https://img.shields.io/badge/MATLAB-R2022a%2B-blue" alt="MATLAB">
+  </a>
+  <a href="./LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-success" alt="License: MIT">
+  </a>
 </p>
 
 # Field of View (FOV) Visualization
 
-MATLAB scripts to visualize sensor fields of view and trajectories within those FOVs.
-
-## Contents
-- `scripts/FOV_Checker.m`
-- `scripts/FOV_Trajectories.m`
-- `scripts/FOV_Trajectories_2.m`
-- `scripts/radarFOV.m`
+MATLAB scripts to visualize sensor **fields of view (FOVs)** and plot trajectories within those FOVs.  
+Results (example image) are written to `results/`.
 
 ## Quickstart
-# from the repo root (e.g., field-of-view-visualization/)
-matlab -batch "run_demo"
-```
 
-## Example Results
-<p align="center">
-  <img src="results/fov_example.png" alt="Synthetic FOV Example" width="680">
-</p>
+1. From MATLAB Desktop, run:
+   ```matlab
+   run('run_demo.m')
+Or from the command line:
 
+bash
+Copy code
+matlab -batch "run('run_demo.m')"
+Outputs will be saved to:
 
+bash
+Copy code
+results/fov_example.png
+Repository Structure
+graphql
+Copy code
+.
+├── data/           # (optional) input CSVs for scenarios
+├── results/        # generated figures
+├── run_demo.m      # entrypoint to produce the example figure
+├── .gitignore
+├── LICENSE
+└── README.md
+Example Output
+After running the demo, the README image below will render automatically.
 
-## Requirements
-- MATLAB R2022a or newer
-- Recommended: Signal Processing Toolbox (for radar), Aerospace/Mapping toolboxes as noted
+<p align="center"> <img src="results/fov_example.png" alt="Synthetic FOV Example" width="680"> </p>
+Requirements
+MATLAB R2022a+
 
+(Optional) relevant toolboxes if you enable advanced features
 
-## Installation
-```bash
+Installation
+bash
+Copy code
 git clone https://github.com/gordonmurray-coding/field-of-view-visualization.git
 cd field-of-view-visualization
-```
+Data
+If your scenario needs inputs, place the required CSVs in data/ and adjust run_demo.m accordingly.
 
-
-## Data
-Place required CSVs into the `data/` folder. See Quickstart for filenames.
-
-
-## Results
-Figures are saved under `results/`.
-
----
-
-### 🤝 Contributing
-Issues and PRs are welcome. Please open an issue to discuss significant changes.
-
-### 📜 License
-This project is licensed under the MIT License — see [LICENSE](./LICENSE) for details.
-
-### ⭐ Acknowledgments
-If this saved you time, consider giving the repo a star!
+License
+This project is licensed under the MIT License.
