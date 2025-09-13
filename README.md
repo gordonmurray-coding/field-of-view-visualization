@@ -15,8 +15,8 @@ MATLAB scripts to visualize sensor fields of view and trajectories within those 
 - `scripts/radarFOV.m`
 
 ## Quickstart
-```matlab
-run_demo
+# from the repo root (e.g., field-of-view-visualization/)
+matlab -batch "run_demo"
 ```
 
 ## Example Results
