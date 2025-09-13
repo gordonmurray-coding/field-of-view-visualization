@@ -18,3 +18,11 @@ results/*
 # Data (keep sample pointers but not big files)
 data/*
 !data/.gitkeep
+
+# keep example images in results/
+!results/.gitkeep
+!results/*.png
+!results/*.jpg
+!results/*.jpeg
+!results/*.svg
+!results/*.gif
