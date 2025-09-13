@@ -20,7 +20,9 @@ run_demo
 ```
 
 ## Example Results
-(Add screenshots after running)
+<p align="center">
+  <img src="results/fov_example.png" alt="Synthetic FOV Example" width="680">
+</p>
 
 
 
